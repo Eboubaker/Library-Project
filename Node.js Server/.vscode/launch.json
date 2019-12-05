@@ -11,7 +11,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\csvtest.js"
+            "program": "${workspaceFolder}\\main.js"
         }
     ]
 }

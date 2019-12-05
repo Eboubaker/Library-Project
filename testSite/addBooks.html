@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ADD-BOOKS</title>
+</head>
+<body>
+    <header>
+        <a href="addBooks.html">ADD BOOKS</a>
+        <a href="index.html">HOME</a>
+        <select name="language" id="drop-list">
+            <option value="Arabic">Arabic</option>
+            <option value="English">English</option>
+            <option value="Frensh">Frensh</option>
+        </select>
+        <h1>search for your book</h1>
+        <input class="text-input" type="text" placeholder="type book title or author" >
+        <select name="categiories" id="catig-list">
+            <option value="default">Type</option>
+            <option value="math">math</option>
+            <option value="physics">physics</option>
+            <option value="chimestry">chimestry</option>
+            <option value="computer sience">computer sience</option>
+            <option value="dictionaries">dictionaries</option>
+            <option value="references books">references books</option>
+            <option value="mecanique">mecanique</option>
+            <option value="memories">memories</option>
+        </select>
+    </header>
+    <section>
+        <div class="add-books-container">
+            <h2 style="color: white;">add new books</h2>
+
+        </div>
+        <div class="books-add">
+            <pre>
+                <ol style="color: white;">
+                    <li>author      <input type="text" placeholder="enter author name"></li>
+                    <li>title       <input type="text"></li>
+                    <li>pages       <input type="number"></li>
+                    <li>language    <input type="text"></li>
+                    <li>rack        <input type="number"></li>
+                    <li>copy        <input type="number"></li>
+                    <li>edition     <input type="number"></li>
+                    <li>date        <input type="date"></li>
+                    <li>publisher   <input type="text"></li>
+                    <li>isbn        <input type="text"></li>
+                </ol>
+                  <button class="add-btn" value="add this book">add this book</button>
+            </pre>
+        </div>
+    </section>
+    <script src="/Library-Project/testSite/main.js"></script>
+</body>
+</html>

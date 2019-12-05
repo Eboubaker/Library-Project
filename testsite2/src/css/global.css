@@ -1,0 +1,32 @@
+/*
+Color Pallet used for the site
+dark blue       : #394a6d
+greenish-bluish : #3c9d9b
+light green     : #52de97
+yeloish-greenish: #c0ffb3
+*/
+:root{
+    --dark-blue    : #36fad9;
+    --green-blue   : ;
+    --light-green  : #52de97;
+    --yellow-green : #c0ffb3;
+}
+body,h1,h2,h3,h4,h5,h6,p,strong{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eeeeee;
+}
+header{
+    background: #929aab;
+    width: 100%;
+    height: 50px;
+}
+header #brand-name{
+    font-family: c;
+    color: #393e46;
+    position: relative;
+    height: 100%;
+    display: table;
+}
